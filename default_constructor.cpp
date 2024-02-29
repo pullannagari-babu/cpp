@@ -13,14 +13,9 @@ class A
                 x=1,y=2;
         }
 
-        A(int a,int b)
-        {
-                cout<<"parameter constructor"<<endl;
-                x=a,y=b;
-        }
         void get_data()
         {
-                cout<<"x"<<x<<"y"<<y<<endl;
+                cout<<"x:"<<x<<"y:"<<y<<endl;
         }
 };
 
